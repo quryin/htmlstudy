@@ -3,12 +3,44 @@
   css 边框与边界
   </title>
   <style type="text/css">
-       
+       img{
+        position:relative;
+        top:228px;
+        left: 228px;
+       }
+      div{
+        font-size: 40px;
+        font-family: Arial Black;
+      }
+      
+      .div1{
+        color:red;
+        position:absolute;
+        top: 20px;
+        left:20px;
+        z-index:3;
+      }
+      .div2{
+        color:blue;
+        position:absolute;
+        top: 22px;
+        left:22px;
+        z-index:2;
+      }
+      .div3{
+        color:#666666;
+        position:absolute;
+        top: 24px;
+        left:24px;
+        z-index:1;
+      }
   </style>
 <img src="images/23.jpg">
  <br/>
 加油学习
-
+   <div class="div1">层次浮动</div>
+   <div class="div2">层次浮动</div>
+   <div class="div3">层次浮动</div>
 </head>
 <body>
    
