@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
+  <title>
+  css 链接
+  </title>
+  <style type="text/css">
+
+     body{
+      margin:50px;
+     
+     }
+     ul{
+      list-style-type:none;
+      width:400px;
+      margin:0px;
+      padding:0px;
+      background:blue;
+      float:left;
+      line-height:26px;
+      font-size:12px;
+     }
+     ul li{
+      float:left;
+      background:url;
+      width:40px;
+      text-align:center; 
+     } 
+     ul li a{
+      color:#fff;
+      text-decoration:none;
+     }
+     
+  </style>
+
+
+</head>
+<body>
+   <ul>
+     <li><a href="#">小麦</a></li>
+     <li><a href="#">大麦</a></li>
+     <li><a href="#">小米</a></li>
+     <li><a href="#">大米</a></li>
+   </ul>
+</body>
+</html>
