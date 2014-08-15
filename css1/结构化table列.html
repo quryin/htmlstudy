@@ -1,0 +1,52 @@
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
+  <title>
+  css 弹出提示框
+  </title>
+  <style type="text/css">
+      table{
+        width:auto;
+        border:1px solid black;
+        border-collapse:separate;/*边框分割开，显示双的*/
+      }
+      th,td{
+       
+        width:50px;
+        border:1px solid black;
+        padding:5px;
+        text-align:center;
+      }
+       table col.col1{
+    background:wheat;
+   }
+   table col.col2{
+    background:gold;
+   }
+   table col.col3{
+    background:orange;
+   }
+   table col.col4{
+    background:tomato;
+   }
+   table td.x{
+         background:green;
+   }
+  </style>
+
+</head>
+<body>
+   
+  <table>
+    <colgroup>
+      <col class="col1"/>
+      <col class="col2"/>
+      <col class="col3"/>
+      <col class="col4"/>
+    </colgroup>
+     <tr><th>1</th><th>2</th><th>3</th><th>4</th></tr>
+     <tr><th>5</th><td class="x">6</td><td>7</td><td>8</td></tr>
+     <tr><th>9</th><td>10</td><td>11</td><td>12</td></tr>
+  </table>   
+     
+</body>
+</html>
+ 
