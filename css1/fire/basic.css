@@ -1,0 +1,112 @@
+*{
+	margin:0;
+	padding:0;
+	
+}
+body{
+	font-size:12px;
+	margin:0 auto;
+	width:760px;
+	margin:center;
+}
+ul{
+	list-style-type:none;
+}
+#header{
+	width:760px;
+	height:303px;
+	background:url(cool/header.jpg) no-repeat;
+	}
+#header ul {
+   padding:274px 0 0 32px;
+}	
+#header ul li{
+	width:77px;
+	height:19px;
+   float:left;
+   text-align:center;
+
+}	
+#header ul li a{
+	width:77px;
+	height:19px;
+   display:block;
+   text-indent:-9999px;
+  
+}	
+#sidebar{
+	width:203px;
+	height:420px;
+	background:navy;
+	float:left;
+}
+#sidebar h1 {
+	font-size:100%;
+	text-indent:-9999px;
+	width:203px;
+	height:54px;
+	background:url(cool/sidebar_header.jpg) no-repeat;
+}
+#sidebar ul {
+	background:url(cool/sidebar_bg.jpg);
+	padding:10px 0;
+}
+#sidebar ul li {
+	padding-left:15px;
+	height:20px;
+}
+#sidebar ul li a {
+	color:#333;
+	text-decoration:none;
+}
+#sidebar ul li a:hover {
+	color:#f00;
+}
+#sidebar dl {
+	background:url(cool/sidebar_bg.jpg);
+	height:235px;
+}
+#sidebar dl dt {
+	border-top:1px solid #666;
+	width:80%;
+	margin:0 auto;
+	padding:10px 0;
+}
+#sidebar dl dd {
+	width:80%;
+	margin:0 auto;
+	height:20px;
+}
+#sidebar dl dd label {
+	display:block;
+	cursor:pointer;
+}
+#sidebar dl dd.submit {
+	padding-top:5px;
+}
+#sidebar dl dd.submit input {
+	cursor:pointer;
+}
+#news{
+	width:557px;
+	height:420px;
+	background:orange;
+	float:right;
+}
+#pics{
+	width:760px;
+	height:256px;
+	background:pink;
+	clear:both;
+}
+#con{
+	width:760px;
+	height:373px;
+	background:yellow;
+}
+
+#footer{
+	width:760px;
+	height:66px;
+	background:blue;
+}
