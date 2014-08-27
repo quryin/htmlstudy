@@ -51,27 +51,104 @@ ul{
 	}
 #pro{
     width:200px;
-	height:300px;
-	background:yellow;
+	height:310px;
+	background:lightgray;
 	position:absolute;
-	top:430px;
+	top:420px;
 	left:140px;
+	border-bottom:;
+
 }	
+#pro h1{
+	height:100px;
+	background:url(case/3.jpg) no-repeat top;
+    font-size:10px;
+    width:200px;
+	text-align:right;
+	color:white;
+
+}
+#pro h1 a{
+	color:white;
+	position:absolute;
+	top:11px;
+	left:158px;
+	text-decoration:none; 
+	
+}
+#pro ul{
+	height:80.8%;
+	background:url(case/y.jpg) repeat-y;
+	position:absolute;
+	top:43px;
+	left:10px;
+	width:200px;
+	font-size:12px;
+}
+#pro ul li{
+	height:7.5%;
+	margin:6.5px 0 0 50px;
+}
+#pro ul li:hover{
+	color:red;
+}
+
 #information{
     width:200px;
 	height:200px;
-	background:orange;
 	position:absolute;
 	top:740px;
 	left:140px;
 }
+#information h1{
+	height:100px;
+	background:url(case/4.jpg) no-repeat top;
+    font-size:10px;
+    width:200px;
+	text-align:right;
+	color:white;
+
+}
+#information h1 a{
+	color:white;
+	position:absolute;
+	top:11px;
+	left:158px;
+	text-decoration:none; 
+
+}
+#information ul{
+	height:80.8%;
+	border:1px solid lightgray;
+	position:absolute;
+	top:38px;
+	left:0px;
+	width:198px;
+	font-size:12px;
+}
+#information ul li{
+	height:14%;
+	width:85%;
+	margin:8px 0 0 13px;
+	border-bottom:1px dashed lightgray ;
+
+}
+#information ul li:hover{
+	color:red;
+}
+
 #equipment{
 	width:200px;
 	height:200px;
-	background:lightgreen;
+	background:url(case/5.jpg) no-repeat top;;
 	position:absolute;
 	top:950px;
 	left:140px;
+}
+#equipment img{
+	position:absolute;
+	top:30px;
+	left:0px;
 }
 #com{
 	width:300px;
