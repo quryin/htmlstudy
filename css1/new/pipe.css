@@ -23,57 +23,76 @@ ul{
 	background:url(1.jpg) no-repeat;
 
 }
+#pipe1{
+padding:120px 0 0 140px;
+}
+.line {
+	width:100px;
+	height:19px;
+	float:left;
+	font-size:10px;
+
+}
+.line a {
+	width:45px;
+	height:19px;
+	display:block;
+	text-indent:-999px;
+	}	
 #picture{
-	width:1024px;
-	height:300px;
-	background:pink;
+	width:724px;
+	height:360px;
+	background:url(2.jpg) no-repeat;
 	position:absolute;
 	top:150px;
+	left:150px;
 	}
 #six{
 	position:absolute;
-	top:450px;
-	width:1024px;
-	height:100px;
-	background:purple;
+	top:506px;
+	left:150px;
+	width:724px;
+	height:40px;
+	background:url(3.jpg) repeat-x;
 }
 #introduce{
 	position:absolute;
 	top:550px;
-	width:410px;
+	left:150px;
+	width:324px;
 	height:300px;
 	background:blue;
 }
 
 #news{
-	width:314px;
+	width:200px;
 	height:300px;
 	background:red;
 	position:absolute;
 	top:550px;
-	left:410px;
+	left:474px;
 }
 #contact{
 	position:absolute;
 	top:550px;
-	left:724px;
-	width:300px;
+	right:150px;
+	width:200px;
 	height:300px;
 	background:blue;
 }
 #display{
 	position:absolute;
 	top:750px;
-	left:0px;
-	width:1024px;
+	left:150px;
+	width:724px;
 	height:200px;
 	background:yellow;
 }
 #footer{
 	position:absolute;
-	top:720px;
-	left:0px;
-	width:1024px;
-	height:150px;
-	background:green;
+	top:900px;
+	left:150px;
+	width:724px;
+	height:170px;
+	background:url(8.jpg) no-repeat;
 }
