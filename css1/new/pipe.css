@@ -10,9 +10,7 @@ body{
 	margin:center;
 	position:relative;
 }
-ul{
-	list-style-type:none;
-}
+
 
 #header{
 	width:1024px;
@@ -37,7 +35,7 @@ padding:120px 0 0 140px;
 	width:45px;
 	height:19px;
 	display:block;
-	text-indent:-999px;
+	text-indent:-9999px;
 	}	
 #picture{
 	width:724px;
@@ -61,16 +59,61 @@ padding:120px 0 0 140px;
 	left:150px;
 	width:324px;
 	height:300px;
-	background:blue;
+	background:url(6.jpg) no-repeat top;
+}
+#three{
+	position:absolute;
+	top:40px;
+	width:324px;
+	height:270px;
+}
+#three img{
+
+	float:left;
+	width:100px;
+	height:100px;
+	top:210px;
+}
+.build a{
+	color:#ff546b;
+	
+	text-decoration:none; 
 }
 
 #news{
 	width:200px;
 	height:300px;
-	background:red;
+	background:url(9.jpg) no-repeat top;
 	position:absolute;
 	top:550px;
 	left:474px;
+}
+#news h1{
+	font-family:黑体;
+	font-size:10px;
+	color:gray;
+	position:absolute;
+	top:15px;
+	left:130px;
+}
+#news h1 a{
+	text-decoration:none; 
+	color:gray;
+}
+
+#date{
+	position:absolute;
+	top:30px;
+	right:0px;
+	width:200px;
+	height:200px;
+	background:blue;
+}
+#date ul{
+   position:absolute;
+	top:30px;
+	right:10px;
+
 }
 #contact{
 	position:absolute;
