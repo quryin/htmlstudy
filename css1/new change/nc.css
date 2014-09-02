@@ -20,10 +20,30 @@ ul{
 	background:url(1.jpg) no-repeat;
 	position:absolute;
 }
+#pipe1{
+	padding:90px 0 0 160px;
+
+
+}
+.line {
+	width:130px;
+	height:19px;
+	float:left;
+	font-size:14px;
+
+}
+.line a {
+	width:63px;
+	height:19px;
+	display:block;
+	color:white;
+	text-decoration:none; 
+    font-family:方正大黑简体;
+	}	
 #picture{
 	width:1272px;
 	height:253px;
-	background:red;
+	background:url(2.jpg) no-repeat;
 	position:absolute;
 	top:128px;
 }
@@ -34,7 +54,7 @@ ul{
 	position:absolute;
 	top:381px;
 	left:147.5px;
-	background:yellow;
+	background:url(3.jpg) repeat-x;
 }
 		
 #introduce{
@@ -43,8 +63,29 @@ ul{
 	position:absolute;
 	top:453px;
 	left:147.5px;
-	background:green;
+	background:url(6.jpg) no-repeat top;
 }
+#three{
+	position:absolute;
+	top:60px;
+	width:400px;
+	height:570px;
+}
+#three img{
+
+	float:left;
+	width:120px;
+	height:120px;
+	top:210px;
+
+}
+.build a{
+	color:#ff546b;
+	width:350px;
+	height:430px;
+	text-decoration:none; 
+}
+
 #news{
 	width:303px;
 	height:258px;
