@@ -92,8 +92,34 @@ ul{
 	position:absolute;
 	top:453px;
 	left:561.5px;
-	background:yellow;
+	background:url(7.jpg) no-repeat top;
 
+}
+#news h1{
+	font-family:黑体;
+	font-size:10px;
+	color:gray;
+	position:absolute;
+	top:15px;
+	left:130px;
+}
+#news h1 a{
+	text-decoration:none; 
+	color:gray;
+}
+#news ul{
+    display:block;
+    padding-left:20px;
+	width:250px;
+	margin-top:50px;
+}
+#news ul li{
+    display:block;
+	width:250px;
+    padding:5px;
+}
+#news em{
+	float:right;
 }
 #contact{
 	width:260px;
